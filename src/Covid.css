@@ -1,0 +1,187 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+.headingDiv{
+    width : 100%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.heading{
+    width : 50%;
+    color: red;
+}
+
+.searchBar{
+    width : 50%
+}
+
+.searchBar select{
+    padding : 2%;
+    font-weight: bold;
+    margin-left: 45%;
+
+}
+
+.mainDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+.leftDiv{
+    width : 65%;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.leftDivs{
+    width : 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 5%;
+}
+
+.rightDiv{
+    width : 35%
+}
+
+.cases{
+    width: 90%;
+    height : 100%;
+    padding: 1%;
+    background-color: white;
+    margin-left :  2%;
+}
+
+.infoBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 107%;
+}
+
+.singleDiv{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.myChartDiv {
+    max-width: 600px;
+    max-height: 400px;
+  }
+
+.lineGraph{
+    width : 60%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.status {
+    margin-left: 22%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainDiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 8%;
+        margin-right: 2%;
+        margin-top: 2%;
+    }
+    .leftDiv{
+        width : 65%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .leftDivs{
+        width : 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .heading{
+        width : 100%;
+        color: red;
+    }
+
+    .infoBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+        width: 107%;
+        
+    }
+    .singleDiv{
+        margin-left: 2%;
+        margin-right: 2%;
+      
+    }
+    .status {
+       
+        margin-bottom: 10%;
+        margin-top: 10%;
+        font-size: 15px;
+        font-weight: bold;
+        color: red;
+    }
+    .lineGraph{
+        width : 100%;
+        margin: auto;
+        margin-top: 5%;
+        height: 150%;
+    }
+    .cases{
+        width: 200%;
+        height : 100%;
+        padding: 1%;
+        background-color: white;
+        margin-left :  2%;
+        margin-top: 5%;
+    }
+    .searchBar{
+        width : 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    .searchBar select{
+        padding : 2%;
+        font-weight: bold;
+       
+    
+    }
+  }
